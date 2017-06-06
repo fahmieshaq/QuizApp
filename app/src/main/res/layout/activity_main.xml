@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="The quiz consists of five questions. Each question has a score of one. If you get all of the answers right, you will get a score of 5/5." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Question 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <TextView
+                style="@style/TextView_mainActivity_bulletPointHoloBlueLight_20dp"
+                android:text="1" />
+
+            <TextView
+                android:text="How many Tomb Raider movies were made?"
+                style="@style/text_mainActivity_quizQuestion" />
+
+        </LinearLayout>
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Three" />
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Seven" />
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Two" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <TextView
+                style="@style/TextView_mainActivity_bulletPointHoloBlueLight_20dp"
+                android:text="2" />
+
+            <TextView
+                style="@style/text_mainActivity_quizQuestion"
+                android:text="How many oscars did the Titanic movie got?" />
+        </LinearLayout>
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Three" />
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Seven" />
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Eleven" />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <TextView
+                style="@style/TextView_mainActivity_bulletPointHoloBlueLight_20dp"
+                android:text="3" />
+
+            <TextView
+                style="@style/text_mainActivity_quizQuestion"
+                android:text="Who is the director of the X-files?" />
+        </LinearLayout>
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Rob Bowman" />
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Sergio Leone" />
+            <RadioButton
+                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                android:text="Jane Campion" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <TextView
+                style="@style/TextView_mainActivity_bulletPointHoloBlueLight_20dp"
+                android:text="4" />
+
+            <TextView
+                style="@style/text_mainActivity_quizQuestion"
+                android:text="What is the name of Steven Spielberg s black-and-white-film about the second world war?" />
+        </LinearLayout>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:text="Schindler's List" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:text="Mr. List"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:text="Mrs. Paula"/>
+
+        <!-- Question 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <TextView
+                style="@style/TextView_mainActivity_bulletPointHoloBlueLight_20dp"
+                android:text="5" />
+
+            <TextView
+                style="@style/text_mainActivity_quizQuestion"
+                android:text="What is the capital of Canada?" />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Toronto or Ottawa"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:text="Submit"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
