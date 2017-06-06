@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مسابقة ثقافية</string>
+    <string name="mainActivity_quizAppDesc">هذه المسابقة تحتوي على خمس اسئلة وكل سؤال يعادل نقطة واحدة. ان جاوبت على كل الأسئلة ستحصل خمسة على خمسة</string>
+    <string name="mainActivity_quizQuestion1">كم عدد اجزاء فلم تومب رايدر؟</string>
+    <string name="mainActivity_quizQuestion2">كم مرة حصل فيلم تيتانيك على الأوسكار؟</string>
+    <string name="mainActivity_quizQuestion3">من مخرج فلم اكس فايلز؟</string>
+    <string name="mainActivity_quizQuestion4">ماهو اسم فلم ستيفن سبيلبيرج القديم الذي حكى قصة العرب العالمية الثانية؟</string>
+    <string name="mainActivity_quizQuestion5">ماهي عاصمة كندا؟</string>
+    <string name="mainActivity_submitQuizButton">النتجية</string>
+</resources>
