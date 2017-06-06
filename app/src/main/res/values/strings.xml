@@ -1,3 +1,25 @@
 <resources>
+    <!-- Title for the application. [CHAR LIMIT=15] -->
     <string name="app_name">Quiz App</string>
+
+    <!-- App description is displayed under the logo. [CHAR LIMIT=150] -->
+    <string name="mainActivity_quizAppDesc">The quiz consists of five questions. Each question has a score of one. If you get all of the answers right, you will get a score of 5/5.</string>
+
+    <!-- First quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion1">How many Tomb Raider movies were made?</string>
+
+    <!-- Second quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion2">How many oscars did the Titanic movie got?</string>
+
+    <!-- Third quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion3">Who is the director of the X-files?</string>
+
+    <!-- Fourth quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion4">What is the name of Steven Spielberg s black-and-white-film about the second world war?</string>
+
+    <!-- Fifth quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion5">What is the capital of Canada?</string>
+
+    <!-- Quiz submit button. [CHAR LIMIT=10] -->
+    <string name="mainActivity_submitQuizButton">Submit</string>
 </resources>

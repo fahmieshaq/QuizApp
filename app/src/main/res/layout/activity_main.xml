@@ -9,10 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
         android:paddingLeft="32dp"
         android:paddingRight="32dp"
-        android:paddingBottom="16dp">
+        android:paddingTop="16dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -23,9 +23,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:paddingTop="16dp"
             android:paddingBottom="16dp"
-            android:text="The quiz consists of five questions. Each question has a score of one. If you get all of the answers right, you will get a score of 5/5." />
+            android:paddingTop="16dp"
+            android:text="@string/mainActivity_quizAppDesc" />
 
         <View
             android:layout_width="match_parent"
@@ -44,20 +44,24 @@
                 android:text="1" />
 
             <TextView
-                android:text="How many Tomb Raider movies were made?"
-                style="@style/text_mainActivity_quizQuestion" />
+                style="@style/text_mainActivity_quizQuestion"
+                android:text="@string/mainActivity_quizQuestion1" />
 
         </LinearLayout>
+
         <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
-                android:text="Three" />
+                android:text="3" />
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
-                android:text="Seven" />
+                android:text="7" />
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
-                android:text="Two" />
+                android:text="2" />
         </RadioGroup>
 
         <!-- Question 2 -->
@@ -73,18 +77,22 @@
 
             <TextView
                 style="@style/text_mainActivity_quizQuestion"
-                android:text="How many oscars did the Titanic movie got?" />
+                android:text="@string/mainActivity_quizQuestion2" />
         </LinearLayout>
+
         <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
-                android:text="Three" />
+                android:text="3" />
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
-                android:text="Seven" />
+                android:text="7" />
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
-                android:text="Eleven" />
+                android:text="11" />
         </RadioGroup>
 
         <!-- Question 3 -->
@@ -100,15 +108,19 @@
 
             <TextView
                 style="@style/text_mainActivity_quizQuestion"
-                android:text="Who is the director of the X-files?" />
+                android:text="@string/mainActivity_quizQuestion3" />
         </LinearLayout>
+
         <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
                 android:text="Rob Bowman" />
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
                 android:text="Sergio Leone" />
+
             <RadioButton
                 style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
                 android:text="Jane Campion" />
@@ -127,24 +139,27 @@
 
             <TextView
                 style="@style/text_mainActivity_quizQuestion"
-                android:text="What is the name of Steven Spielberg s black-and-white-film about the second world war?" />
+                android:text="@string/mainActivity_quizQuestion4" />
         </LinearLayout>
+
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
             android:layout_marginTop="8dp"
-            android:layout_marginLeft="24dp"
             android:text="Schindler's List" />
+
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
-            android:text="Mr. List"/>
+            android:text="Mr. List" />
+
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
-            android:text="Mrs. Paula"/>
+            android:text="Mrs. Paula" />
 
         <!-- Question 5 -->
         <LinearLayout
@@ -159,25 +174,26 @@
 
             <TextView
                 style="@style/text_mainActivity_quizQuestion"
-                android:text="What is the capital of Canada?" />
+                android:text="@string/mainActivity_quizQuestion5" />
         </LinearLayout>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Toronto or Ottawa"
+            android:layout_marginLeft="24dp"
             android:layout_marginTop="8dp"
-            android:layout_marginLeft="24dp"/>
+            android:hint="Toronto or Ottawa" />
 
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:textSize="15sp"
-            android:fontFamily="sans-serif"
-            android:text="Submit"
-            android:layout_gravity="center"/>
+            android:text="@string/mainActivity_submitQuizButton"
+            android:textSize="15sp" />
 
     </LinearLayout>
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=15] -->
+    <string name="app_name">Examen App</string>
+
+    <!-- App description is displayed under the logo. [CHAR LIMIT=150] -->
+    <string name="mainActivity_quizAppDesc">El cuestionario consta de cinco preguntas. Cada pregunta tiene una puntuación de uno. Si obtiene todas las respuestas correctas, obtendrá una puntuación de 5/5.</string>
+
+    <!-- First quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion1">Cuántas películas de Tomb Raider se hicieron?</string>
+
+    <!-- Second quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion2">Cuántos oscars tuvo la película Titanic?</string>
+
+    <!-- Third quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion3">Quién es el director de los archivos X?</string>
+
+    <!-- Fourth quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion4">Cuál es el nombre de la película en blanco y negro de Steven Spielberg sobre la segunda guerra mundial?</string>
+
+    <!-- Fifth quiz question. [CHAR LIMIT=115] -->
+    <string name="mainActivity_quizQuestion5">Cuál es la capital de Canadá?</string>
+
+    <!-- Quiz submit button. [CHAR LIMIT=10] -->
+    <string name="mainActivity_submitQuizButton">Enviar</string>
+</resources>
