@@ -20,6 +20,9 @@
     <!-- Fifth quiz question. [CHAR LIMIT=115] -->
     <string name="mainActivity_quizQuestion5">What is the capital of Canada?</string>
 
+    <!-- Quiz 5 question takes an answer from EditText. Added a hint text on the EditText [CHAR LIMIT=30] -->
+    <string name="mainActivity_quizQuestion5EditTextHint">Toronto or Ottawa</string>
+
     <!-- Quiz submit button. [CHAR LIMIT=10] -->
     <string name="mainActivity_submitQuizButton">Submit</string>
 </resources>

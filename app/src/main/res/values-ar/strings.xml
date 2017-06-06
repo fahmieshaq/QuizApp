@@ -7,5 +7,6 @@
     <string name="mainActivity_quizQuestion3">من مخرج فلم اكس فايلز؟</string>
     <string name="mainActivity_quizQuestion4">ماهو اسم فلم ستيفن سبيلبيرج القديم الذي حكى قصة العرب العالمية الثانية؟</string>
     <string name="mainActivity_quizQuestion5">ماهي عاصمة كندا؟</string>
+    <string name="mainActivity_quizQuestion5EditTextHint">تورونتو أو أوتاوا</string>
     <string name="mainActivity_submitQuizButton">النتجية</string>
 </resources>
