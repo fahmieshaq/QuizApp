@@ -49,9 +49,11 @@
 
         </LinearLayout>
 
-        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation"
+            android:onClick="selectedButton">
 
             <RadioButton
+                android:id="@+id/option1"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="3" />
 
