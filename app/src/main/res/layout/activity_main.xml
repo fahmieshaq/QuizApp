@@ -30,7 +30,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@android:color/darker_gray" />
+            android:background="@color/colorDivider" />
 
         <!-- Question 1 -->
         <LinearLayout
@@ -52,15 +52,15 @@
         <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="3" />
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="7" />
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="2" />
         </RadioGroup>
 
@@ -83,15 +83,15 @@
         <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="3" />
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="7" />
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="11" />
         </RadioGroup>
 
@@ -114,15 +114,15 @@
         <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="Rob Bowman" />
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="Sergio Leone" />
 
             <RadioButton
-                style="@style/RadioButton_mainActivity_textLeftPadding_8dp"
+                style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="Jane Campion" />
         </RadioGroup>
 
@@ -131,6 +131,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
+            android:paddingBottom="8dp"
             android:paddingTop="16dp">
 
             <TextView
@@ -143,22 +144,15 @@
         </LinearLayout>
 
         <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="8dp"
+            style="@style/CheckBox_mainActivity_textIndentation"
             android:text="Schindler's List" />
 
         <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
+            style="@style/CheckBox_mainActivity_textIndentation"
             android:text="Mr. List" />
 
         <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
+            style="@style/CheckBox_mainActivity_textIndentation"
             android:text="Mrs. Paula" />
 
         <!-- Question 5 -->
@@ -166,6 +160,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
+            android:paddingBottom="8dp"
             android:paddingTop="16dp">
 
             <TextView
@@ -178,10 +173,7 @@
         </LinearLayout>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="8dp"
+            style="@style/EditBox_mainActivity_indentation"
             android:hint="@string/mainActivity_quizQuestion5EditTextHint" />
 
         <!-- Submit button -->
@@ -193,6 +185,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:text="@string/mainActivity_submitQuizButton"
+            android:textColor="@android:color/white"
             android:textSize="15sp" />
 
     </LinearLayout>
