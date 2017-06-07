@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for the application. [CHAR LIMIT=15] -->
     <string name="app_name">Quiz App</string>
 
@@ -22,6 +22,16 @@
 
     <!-- Quiz 5 question takes an answer from EditText. Added a hint text on the EditText [CHAR LIMIT=30] -->
     <string name="mainActivity_quizQuestion5EditTextHint">Toronto or Ottawa</string>
+
+    <!-- Final results will be displayed in a toast. [CHAR LIMIT=NONE] -->
+    <string name="mainActivity_toast_finalResults">
+        Your total score is <xliff:g id="">%s</xliff:g>\n
+        Question 1: <xliff:g id="">%s</xliff:g> point\n
+        Question 2: <xliff:g id="">%s</xliff:g> point\n
+        Question 3: <xliff:g id="">%s</xliff:g> point\n
+        Question 4: <xliff:g id="">%s</xliff:g> point\n
+        Question 5: <xliff:g id="">%s</xliff:g> point
+    </string>
 
     <!-- Quiz submit button. [CHAR LIMIT=10] -->
     <string name="mainActivity_submitQuizButton">Submit</string>

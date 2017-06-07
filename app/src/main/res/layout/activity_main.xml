@@ -50,18 +50,19 @@
         </LinearLayout>
 
         <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation"
-            android:onClick="selectedButton">
-
+            android:id="@+id/radiogroup_qustion1">
             <RadioButton
-                android:id="@+id/option1"
+                android:id="@+id/radiobutton_question1_option1"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="3" />
 
             <RadioButton
+                android:id="@+id/radiobutton_question1_option2"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="7" />
 
             <RadioButton
+                android:id="@+id/radiobutton_question1_option3"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="2" />
         </RadioGroup>
@@ -82,17 +83,21 @@
                 android:text="@string/mainActivity_quizQuestion2" />
         </LinearLayout>
 
-        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation"
+            android:id="@+id/radiogroup_qustion2">
 
             <RadioButton
+                android:id="@+id/radiobutton_question2_option1"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="3" />
 
             <RadioButton
+                android:id="@+id/radiobutton_question2_option2"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="7" />
 
             <RadioButton
+                android:id="@+id/radiobutton_question2_option3"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="11" />
         </RadioGroup>
@@ -113,17 +118,21 @@
                 android:text="@string/mainActivity_quizQuestion3" />
         </LinearLayout>
 
-        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation"
+            android:id="@+id/radiogroup_qustion3">
 
             <RadioButton
+                android:id="@+id/radiobutton_question3_option1"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="Rob Bowman" />
 
             <RadioButton
+                android:id="@+id/radiobutton_question3_option2"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="Sergio Leone" />
 
             <RadioButton
+                android:id="@+id/radiobutton_question3_option3"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
                 android:text="Jane Campion" />
         </RadioGroup>
@@ -146,14 +155,17 @@
         </LinearLayout>
 
         <CheckBox
+            android:id="@+id/checkbox_question4_option1"
             style="@style/CheckBox_mainActivity_textIndentation"
             android:text="Schindler's List" />
 
         <CheckBox
+            android:id="@+id/checkbox_question4_option2"
             style="@style/CheckBox_mainActivity_textIndentation"
             android:text="Mr. List" />
 
         <CheckBox
+            android:id="@+id/checkbox_question4_option3"
             style="@style/CheckBox_mainActivity_textIndentation"
             android:text="Mrs. Paula" />
 
@@ -175,6 +187,7 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/edittext_question5"
             style="@style/EditBox_mainActivity_indentation"
             android:hint="@string/mainActivity_quizQuestion5EditTextHint" />
 
@@ -188,7 +201,8 @@
             android:paddingRight="16dp"
             android:text="@string/mainActivity_submitQuizButton"
             android:textColor="@android:color/white"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:onClick="submitQuiz" />
 
     </LinearLayout>
 
