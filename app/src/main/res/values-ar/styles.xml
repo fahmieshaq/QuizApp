@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Note: I have commented where I edited only. Any attribute not mentioned in the comment is not edited -->
+
     <style name="text_mainActivity_quizQuestion">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -35,11 +37,12 @@
         <item name="android:textDirection">rtl</item>
     </style>
 
-    <!-- Edit: changed layout_marginLeft to layout_marginRight and paddingLeft to paddingRight -->
+    <!-- Edit: changed layout_marginLeft to layout_marginRight and paddingLeft to paddingRight. Added textDirection attribute -->
     <style name="EditBox_mainActivity_indentation">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginRight">24dp</item>
         <item name="android:paddingRight">8dp</item>
+        <item name="android:textDirection">rtl</item>
     </style>
 </resources>

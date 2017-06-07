@@ -49,8 +49,8 @@
 
         </LinearLayout>
 
-        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation"
-            android:id="@+id/radiogroup_qustion1">
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
+
             <RadioButton
                 android:id="@+id/radiobutton_question1_option1"
                 style="@style/RadioButton_mainActivity_textIndentation_8dp"
@@ -83,8 +83,7 @@
                 android:text="@string/mainActivity_quizQuestion2" />
         </LinearLayout>
 
-        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation"
-            android:id="@+id/radiogroup_qustion2">
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
 
             <RadioButton
                 android:id="@+id/radiobutton_question2_option1"
@@ -118,8 +117,7 @@
                 android:text="@string/mainActivity_quizQuestion3" />
         </LinearLayout>
 
-        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation"
-            android:id="@+id/radiogroup_qustion3">
+        <RadioGroup style="@style/RadioGroup_mainActivity_verticalIndentation">
 
             <RadioButton
                 android:id="@+id/radiobutton_question3_option1"
@@ -197,12 +195,12 @@
             android:layout_height="48dp"
             android:layout_gravity="center"
             android:fontFamily="sans-serif"
+            android:onClick="submitQuiz"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:text="@string/mainActivity_submitQuizButton"
             android:textColor="@android:color/white"
-            android:textSize="15sp"
-            android:onClick="submitQuiz" />
+            android:textSize="15sp" />
 
     </LinearLayout>
 
